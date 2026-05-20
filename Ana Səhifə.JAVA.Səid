@@ -1,0 +1,39 @@
+document.addEventListener("DOMContentLoaded", function () {
+    
+    // 1. Aktiv menyu linklərinin idarə olunması
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function () {
+            document.querySelector(".nav-link.active")?.classList.remove("active");
+            this.classList.add("active");
+            
+            // Mobil menyu açıqdırsa, linkə kliklədikdə menyunu bağla
+            const navMenu = document.getElementById("nav-menu");
+            const menuToggle = document.getElementById("mobile-menu");
+            if(navMenu.classList.contains("active")) {
+                navMenu.classList.remove("active");
+                menuToggle.classList.remove("active");
+            }
+        });
+    });
+
+    // 2. Mobil Hamburger Menyu Açılıb-Bağlanması
+    const mobileMenuBtn = document.getElementById("mobile-menu");
+    const navMenu = document.getElementById("nav-menu");
+
+    if (mobileMenuBtn && navMenu) {
+        mobileMenuBtn.addEventListener("click", function () {
+            mobileMenuBtn.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        });
+    }
+
+    // 3. Düymələrə Klik Reaksiyası (Yoxlama məqsədli)
+    const actionButtons = document.querySelectorAll(".btn");
+    actionButtons.forEach(btn => {
+        btn.addEventListener("click", function () {
+            console.log("Görüş təyin etmə sisteminə keçid edildi.");
+        });
+    });
+});
