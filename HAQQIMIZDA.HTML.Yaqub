@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedBook - Haqqımızda</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar__container">
+
+      <div class="navbar__logo">
+        <div class="navbar__logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+          </svg>
+        </div>
+        <span class="navbar__logo-text">MedBook</span>
+      </div>
+
+      <ul class="navbar__links">
+        <li><a href="#" class="navbar__link">Ana Səhifə</a></li>
+        <li><a href="#" class="navbar__link">Həkimlər</a></li>
+        <li><a href="#" class="navbar__link">Xəstəxanalar</a></li>
+        <li><a href="#" class="navbar__link">Şöbələr</a></li>
+        <li><a href="#" class="navbar__link navbar__link--active">Haqqımızda</a></li>
+        <li><a href="#" class="navbar__link">Əlaqə</a></li>
+      </ul>
+
+      <a href="#" class="navbar__btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+          <line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+        Görüş Təyin Et
+      </a>
+
+    </div>
+  </nav>
+
+  <!-- HERO BANNER -->
+  <section class="hero">
+    <div class="hero__container">
+      <h1 class="hero__title">Haqqımızda</h1>
+      <p class="hero__subtitle">
+        MedBook - Azərbaycanda sağlamlıq xidmətlərini daha əlçatan edən rəqəmsal platforma
+      </p>
+    </div>
+
+    <!-- STATS CARDS -->
+    <div class="stats">
+      <div class="stat-card">
+        <span class="stat-card__number">10,000+</span>
+        <span class="stat-card__label">Məmnun Xəstə</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__number">250+</span>
+        <span class="stat-card__label">Mütəxəssis Həkim</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__number">50+</span>
+        <span class="stat-card__label">Xəstəxana</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__number">24/7</span>
+        <span class="stat-card__label">Dəstək Xidməti</span>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedBook - Bizim Missiyamız</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar__container">
+
+      <div class="navbar__logo">
+        <div class="navbar__logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+          </svg>
+        </div>
+        <span class="navbar__logo-text">MedBook</span>
+      </div>
+
+      <ul class="navbar__links">
+        <li><a href="#" class="navbar__link">Ana Səhifə</a></li>
+        <li><a href="#" class="navbar__link">Həkimlər</a></li>
+        <li><a href="#" class="navbar__link">Xəstəxanalar</a></li>
+        <li><a href="#" class="navbar__link">Şöbələr</a></li>
+        <li><a href="#" class="navbar__link navbar__link--active">Haqqımızda</a></li>
+        <li><a href="#" class="navbar__link">Əlaqə</a></li>
+      </ul>
+
+      <a href="#" class="navbar__btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+          <line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+        Görüş Təyin Et
+      </a>
+
+    </div>
+  </nav>
+
+  <!-- MİSSİYA BÖLMƏSİ -->
+  <section class="mission">
+    <div class="mission__container">
+      <h2 class="mission__title">Bizim Missiyamız</h2>
+      <p class="mission__text">
+        MedBook olaraq, biz Azərbaycanda keyfiyyətli tibbi xidmətləri hər kəs üçün əlçatan etmək missiyası
+        ilə fəaliyyət göstəririk. Müasir texnologiyalardan istifadə edərək, xəstələr və həkimlər arasında körpü
+        rolunu oynayır, sağlamlıq xidmətlərinin alınmasını sadələşdiririk.
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedBook - Dəyərlərimiz</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- İkonlar üçün Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Naviqasiya -->
+    <header class="navbar">
+        <div class="logo">
+            <i class="fas fa-calendar-check"></i>
+            <span>MedBook</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Ana Səhifə</a></li>
+                <li><a href="#">Həkimlər</a></li>
+                <li><a href="#">Xəstəxanalar</a></li>
+                <li><a href="#">Şöbələr</a></li>
+                <li><a href="#" class="active">Haqqımızda</a></li>
+                <li><a href="#">Əlaqə</a></li>
+            </ul>
+        </nav>
+        <button class="appointment-btn">
+            <i class="far fa-calendar-alt"></i> Görüş Təyin Et
+        </button>
+    </header>
+
+    <!-- Dəyərlərimiz Bölməsi -->
+    <main class="values-section">
+        <h1>Dəyərlərimiz</h1>
+        
+        <div class="grid-container">
+            <!-- Kart 1 -->
+            <div class="card">
+                <div class="icon-box"><i class="far fa-heart"></i></div>
+                <h3>Xəstə Mərkəzli</h3>
+                <p>Hər şey xəstələrimizin rahatlığı və sağlamlığı üçün</p>
+            </div>
+
+            <!-- Kart 2 -->
+            <div class="card">
+                <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
+                <h3>Təhlükəsizlik</h3>
+                <p>Məlumatlarınızın tam təhlükəsizliyi bizim prioritetimizdir</p>
+            </div>
+
+            <!-- Kart 3 -->
+            <div class="card">
+                <div class="icon-box"><i class="fas fa-ribbon"></i></div>
+                <h3>Keyfiyyət</h3>
+                <p>Yalnız sertifikatlaşmış və təcrübəli həkimlər</p>
+            </div>
+
+            <!-- Kart 4 -->
+            <div class="card">
+                <div class="icon-box"><i class="fas fa-bolt"></i></div>
+                <h3>Sürət</h3>
+                <p>Saniyələr içində rezervasiya edin</p>
+            </div>
+
+            <!-- Kart 5 -->
+            <div class="card">
+                <div class="icon-box"><i class="fas fa-users"></i></div>
+                <h3>Peşəkarlıq</h3>
+                <p>Yüksək kvalifikasiyalı komanda</p>
+            </div>
+
+            <!-- Kart 6 -->
+            <div class="card">
+                <div class="icon-box"><i class="fas fa-bullseye"></i></div>
+                <h3>İnnovasiya</h3>
+                <p>Müasir texnologiyalar və həllər</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
+
+
+
+
+
