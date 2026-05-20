@@ -54,8 +54,6 @@ specialityFilter.addEventListener(
     filterDoctors
 );
 
-/* BUTTON */
-
 const buttons =
 document.querySelectorAll(".book-btn");
 
