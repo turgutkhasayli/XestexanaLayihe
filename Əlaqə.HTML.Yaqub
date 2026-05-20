@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedBook - Əlaqə</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Naviqasiya -->
+    <header class="navbar">
+        <div class="logo">
+            <i class="fas fa-calendar-check"></i>
+            <span>MedBook</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Ana Səhifə</a></li>
+                <li><a href="#">Həkimlər</a></li>
+                <li><a href="#">Xəstəxanalar</a></li>
+                <li><a href="#">Şöbələr</a></li>
+                <li><a href="#">Haqqımızda</a></li>
+                <li><a href="#" class="active">Əlaqə</a></li>
+            </ul>
+        </nav>
+        <button class="appointment-btn">
+            <i class="far fa-calendar-alt"></i> Görüş Təyin Et
+        </button>
+    </header>
+
+    <!-- Əlaqə Başlıq -->
+    <section class="contact-header">
+        <h1>Əlaqə</h1>
+        <p>Bizimlə əlaqə saxlayın</p>
+    </section>
+
+    <!-- Əlaqə Bölməsi -->
+    <main class="contact-container">
+        <!-- Sol tərəf: Məlumat kartları -->
+        <div class="contact-info">
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                <h3>Telefon</h3>
+                <p>+994 12 555 55 55</p>
+                <p>+994 50 555 55 55</p>
+            </div>
+
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                <h3>Email</h3>
+                <p>info@medbook.az</p>
+                <p>support@medbook.az</p>
+            </div>
+        </div>
+
+        <!-- Sağ tərəf: Mesaj Formu -->
+        <div class="contact-form">
+            <h2>Mesaj Göndərin</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Ad Soyad <span>*</span></label>
+                        <input type="text" placeholder="Adınız və soyadınız">
+                    </div>
+                    <div class="form-group">
+                        <label>Email <span>*</span></label>
+                        <input type="email" placeholder="email@example.com">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Telefon <span>*</span></label>
+                        <input type="text" placeholder="+994 XX XXX XX XX">
+                    </div>
+                    <div class="form-group">
+                        <label>Mövzu <span>*</span></label>
+                        <select>
+                            <option>Seçin</option>
+                            <option>Şikayət</option>
+                            <option>Təklif</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Mesaj <span>*</span></label>
+                    <textarea rows="5" placeholder="Mesajınızı yazın..."></textarea>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedBook - Əlaqə Kartları</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="cards-wrapper">
+
+    <!-- Ünvan Kartı -->
+    <div class="card">
+      <div class="card__icon-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+      </div>
+      <h3 class="card__title">Ünvan</h3>
+      <p class="card__text">
+        Nəsimi rayonu<br/>
+        Azadlıq prospekti 12<br/>
+        Bakı, Azərbaycan
+      </p>
+    </div>
+
+    <!-- İş Saatları Kartı -->
+    <div class="card">
+      <div class="card__icon-box">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+      </div>
+      <h3 class="card__title">İş Saatları</h3>
+      <div class="card__text">
+        <p>Bazar ertəsi - Cümə</p>
+        <p>09:00 - 18:00</p>
+        <br/>
+        <p>Şənbə: 10:00 - 15:00</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedBook Footer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <footer class="footer">
+    <div class="footer__container">
+
+      <!-- Logo & Description -->
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <div class="footer__logo-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <span class="footer__logo-text">MedBook</span>
+        </div>
+        <p class="footer__description">Onlayn həkim və xəstəxana<br/>rezervasiya platforması</p>
+      </div>
+
+      <!-- Keçidlər -->
+      <div class="footer__col">
+        <h4 class="footer__heading footer__heading--green">Keçidlər</h4>
+        <ul class="footer__list">
+          <li><a href="#" class="footer__link">Ana Səhifə</a></li>
+          <li><a href="#" class="footer__link">Həkimlər</a></li>
+          <li><a href="#" class="footer__link">Xəstəxanalar</a></li>
+        </ul>
+      </div>
+
+      <!-- Şöbələr -->
+      <div class="footer__col">
+        <h4 class="footer__heading footer__heading--blue">Şöbələr</h4>
+        <ul class="footer__list">
+          <li><a href="#" class="footer__link">Bütün Şöbələr</a></li>
+          <li><a href="#" class="footer__link">Haqqımızda</a></li>
+          <li><a href="#" class="footer__link">Əlaqə</a></li>
+        </ul>
+      </div>
+
+      <!-- Əlaqə -->
+      <div class="footer__col">
+        <h4 class="footer__heading footer__heading--purple">Əlaqə</h4>
+        <ul class="footer__list footer__list--contact">
+          <li class="footer__contact-item">
+            <span class="footer__contact-icon">📞</span>
+            <a href="tel:+994125555555" class="footer__link">+994 12 555 55 55</a>
+          </li>
+          <li class="footer__contact-item">
+            <a href="mailto:info@medbook.az" class="footer__link">info@medbook.az</a>
+          </li>
+          <li class="footer__contact-item">
+            <a href="#" class="footer__link">Bakı, Azərbaycan</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer__divider"></div>
+  </footer>
+
+</body>
+</html>
+
