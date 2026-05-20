@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedBook - Haqqımızda</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar__container">
+
+      <div class="navbar__logo">
+        <div class="navbar__logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+          </svg>
+        </div>
+        <span class="navbar__logo-text">MedBook</span>
+      </div>
+
+      <ul class="navbar__links">
+        <li><a href="#" class="navbar__link">Ana Səhifə</a></li>
+        <li><a href="#" class="navbar__link">Həkimlər</a></li>
+        <li><a href="#" class="navbar__link">Xəstəxanalar</a></li>
+        <li><a href="#" class="navbar__link">Şöbələr</a></li>
+        <li><a href="#" class="navbar__link navbar__link--active">Haqqımızda</a></li>
+        <li><a href="#" class="navbar__link">Əlaqə</a></li>
+      </ul>
+
+      <a href="#" class="navbar__btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+          <line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+        Görüş Təyin Et
+      </a>
+
+    </div>
+  </nav>
+
+  <!-- HERO BANNER -->
+  <section class="hero">
+    <div class="hero__container">
+      <h1 class="hero__title">Haqqımızda</h1>
+      <p class="hero__subtitle">
+        MedBook - Azərbaycanda sağlamlıq xidmətlərini daha əlçatan edən rəqəmsal platforma
+      </p>
+    </div>
+
+    <!-- STATS CARDS -->
+    <div class="stats">
+      <div class="stat-card">
+        <span class="stat-card__number">10,000+</span>
+        <span class="stat-card__label">Məmnun Xəstə</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__number">250+</span>
+        <span class="stat-card__label">Mütəxəssis Həkim</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__number">50+</span>
+        <span class="stat-card__label">Xəstəxana</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__number">24/7</span>
+        <span class="stat-card__label">Dəstək Xidməti</span>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
