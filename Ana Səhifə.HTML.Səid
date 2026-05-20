@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedBook - Sağlamlığınız üçün ən yaxşı xidmət</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-calendar-check logo-icon"></i>
+                <span>Med<span class="logo-accent">Book</span></span>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#" class="nav-link active">Ana Səhifə</a>
+                <a href="#" class="nav-link">Həkimlər</a>
+                <a href="#" class="nav-link">Xəstəxanalar</a>
+                <a href="#" class="nav-link">Şöbələr</a>
+                <a href="#" class="nav-link">Haqqımızda</a>
+                <a href="#" class="nav-link">Əlaqə</a>
+                <button class="btn btn-primary btn-appointment-mobile">
+                    <i class="fa-regular fa-calendar-plus"></i> Görüş Təyin Et
+                </button>
+            </nav>
+            <button class="btn btn-primary btn-appointment">
+                <i class="fa-regular fa-calendar-plus"></i> Görüş Təyin Et
+            </button>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="why-us section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Niyə MedBook?</h2>
+                <p>Sağlamlığınız üçün ən yaxşı xidmət</p>
+            </div>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <div class="icon-box icon-blue">
+                        <i class="fa-regular fa-calendar-days"></i>
+                    </div>
+                    <h3>Asan Rezervasiya</h3>
+                    <p>Bir neçə kliklə həkim görüşü təyin edin</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box icon-green">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <h3>Mütəxəssis Həkimlər</h3>
+                    <p>Yüzlərlə sertifikatlaşmış həkim</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box icon-purple">
+                        <i class="fa-solid fa-hospital"></i>
+                    </div>
+                    <h3>Keyfiyyətli Xəstəxanalar</h3>
+                    <p>Ən yaxşı tibb müəssisələri</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box icon-orange">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <h3>24/7 Xidmət</h3>
+                    <p>İstənilən vaxt rezervasiya edin</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box icon-teal">
+                        <i class="fa-regular fa-shield-halved"></i>
+                    </div>
+                    <h3>Təhlükəsiz</h3>
+                    <p>Məlumatlarınız tam qorunur</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box icon-yellow">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Yüksək Reytinq</h3>
+                    <p>Minlərlə məmnun istifadəçi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="departments section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Populyar Şöbələr</h2>
+                <p>İxtisas sahələri üzrə həkim seçin</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card-dept">
+                    <div class="dept-icon icon-red">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="dept-info">
+                        <h3>Kardialogiya</h3>
+                        <p>45 həkim</p>
+                    </div>
+                </div>
+                <div class="card-dept">
+                    <div class="dept-icon icon-pink">
+                        <i class="fa-solid fa-child"></i>
+                    </div>
+                    <div class="dept-info">
+                        <h3>Pediatriya</h3>
+                        <p>38 həkim</p>
+                    </div>
+                </div>
+                <div class="card-dept">
+                    <div class="dept-icon icon-purple-dark">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <div class="dept-info">
+                        <h3>Nevrologiya</h3>
+                        <p>32 həkim</p>
+                    </div>
+                </div>
+                <div class="card-dept">
+                    <div class="dept-icon icon-orange-dark">
+                        <i class="fa-solid fa-bone"></i>
+                    </div>
+                    <div class="dept-info">
+                        <h3>Ortopediya</h3>
+                        <p>28 həkim</p>
+                    </div>
+                </div>
+                <div class="card-dept">
+                    <div class="dept-icon icon-green-dark">
+                        <i class="fa-solid fa-hand-dots"></i>
+                    </div>
+                    <div class="dept-info">
+                        <h3>Dermatologiya</h3>
+                        <p>25 həkim</p>
+                    </div>
+                </div>
+                <div class="card-dept">
+                    <div class="dept-icon icon-blue-dark">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <div class="dept-info">
+                        <h3>Oftalmologiya</h3>
+                        <p>22 həkim</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-all-container">
+                <a href="#" class="view-all-link">Bütün şöbələrə bax <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section container">
+        <div class="cta-box">
+            <h2>Hazırsınız?</h2>
+            <p>İndi həkimlə görüş təyin edin və sağlamlığınızıza qayğı göstərin</p>
+            <button class="btn btn-secondary">
+                <i class="fa-regular fa-calendar-plus"></i> Görüş Təyin Et
+            </button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container grid-footer">
+            <div class="footer-col logo-col">
+                <div class="logo logo-light">
+                    <i class="fa-solid fa-calendar-check logo-icon"></i>
+                    <span>Med<span class="logo-accent">Book</span></span>
+                </div>
+                <p>Onlayn həkim və xəstəxana rezervasiya platforması</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Keçidlər</h4>
+                <ul>
+                    <li><a href="#">Ana Səhifə</a></li>
+                    <li><a href="#">Həkimlər</a></li>
+                    <li><a href="#">Xəstəxanalar</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Şöbələr</h4>
+                <ul>
+                    <li><a href="#">Bütün Şöbələr</a></li>
+                    <li><a href="#">Haqqımızda</a></li>
+                    <li><a href="#">Əlaqə</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h4>Əlaqə</h4>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> +994 12 555 55 55</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@medbook.az</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Bakı, Azərbaycan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MedBook. Bütün hüquqlar qorunur.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
