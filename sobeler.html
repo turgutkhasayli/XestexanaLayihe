@@ -1,64 +1,12 @@
-<!DOCTYPE html>
-<html lang="az">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tibbi Şöbələr</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div class="main-container">
-        <div class="page-title">
-            <h1>Tibbi Şöbələr</h1>
-            <p>İxtisas sahələri və mütəxəssislərimiz</p>
-        </div>
-
-        <div class="grid-container">
+document.addEventListener("DOMContentLoaded", function() {
+    const cards = document.querySelectorAll('.card');
+    
+    cards.forEach(card => {
+        card.addEventListener('click', function() {
+            const titleElement = card.querySelector('h3');
+            const departmentName = titleElement ? titleElement.innerText : "Seçilmiş";
             
-            <div class="card">
-                <i class="fa-solid fa-heart icon red"></i>
-                <h3>Kardialogiya</h3>
-                <p>Ürək və damar xəstəlikləri</p>
-                <span>45 həkim</span>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-baby icon pink"></i>
-                <h3>Pediatriya</h3>
-                <p>Uşaq xəstəlikləri və sağlamlığı</p>
-                <span>38 həkim</span>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-brain icon purple"></i>
-                <h3>Nevrologiya</h3>
-                <p>Sinir sistema xəstəlikləri</p>
-                <span>32 həkim</span>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-bone icon orange"></i>
-                <h3>Ortopediya</h3>
-                <p>Sümük və oynaq xəstəlikləri</p>
-                <span>28 həkim</span>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-droplet icon teal"></i>
-                <h3>Dermatologiya</h3>
-                <p>Dəri xəstəlikləri</p>
-                <span>25 həkim</span>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-eye icon blue"></i>
-                <h3>Oftalmologiya</h3>
-                <p>Göz xəstəlikləri</p>
-                <span>22 həkim</span>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-ear-listen icon dark-purple"></i>
-                <h3>Otorinolarinqolog
+            alert("Hörmətli istifadəçi, " + departmentName + " şöbəsi üzrə həkim qəbuluna uğurla yazıldınız!");
+        });
+    });
+});
